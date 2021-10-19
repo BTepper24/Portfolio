@@ -1,0 +1,14 @@
+body{
+    background-image: linear-gradient(blue, green);
+  }
+#rcorners1{
+  border-radius: 25px;
+  background:#43CD91;
+  padding: 20px;
+}
+h1, h2, h3, h4, h5{
+  color:white;
+}
+.lead{
+  color:white;
+}
