@@ -13,9 +13,17 @@ h1, h2, h3, h4, h5{
   color:white;
 }
 img{
-  height:200px;
-  width:200px;
+  height:180px;
+  width:180px;
+  border-radius:45px;
 }
 .card{
   background-color:	#00bfff;
+  border-radius: 60px;
+}
+.card-body{
+  border-radius:25px;
+}
+ul{
+  border-radius:25px;
 }
