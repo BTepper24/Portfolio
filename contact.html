@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css" type="text/css">
+  <title>Mr.Tepper's Portfolio</title>
+</head>
+<body>
+  <div class="container my-5">
+    <h1 class="display-1 mb-3">Brandon Tepper</h1>
+    <p class="lead">
+      Welcome to my Junior Year Portfolio
+    </P>
+    <a href="mailto:523btepper@frhsd.com" type="button" class="btn btn-outline-primary">523btepper@frhsd.com</a>
+  </div>
+  <div class="container">
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aboutme.html">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Me</a>
+      </li>
+    </ul>
+  </div>
+<div class="container-fluid">
+  <main role="main">
+	<div class="contentWrapper" id="cool">
+		<form action="" method="post" name="feedbackForm" id="feedbackForm">
+			<fieldset id="feedback">
+				<legend id="Feedback">Have any questions? Leave them down below!</legend>
+
+					<label for="nameField">Name:</label>
+					<input id="nameField" name="nameField" type="text" class="textfield" value="First and Last Name" onFocus="clearName();" onBlur="resetName();">
+
+					<label for="emailField">Email:</label>
+					<input id="emailField" name="emailField" type="text" class="textfield" value="example: awesome@gmail.com" onFocus="clearEmail();" onBlur="resetEmail();">
+
+					<label for="messageField">Message:</label>
+					<input id="messageField" name="messageField" type="text" class="textfield" value="Message Here!" onFocus="clearMessage();" onBlur="resetMessage();">
+
+					<input id="submit" type="submit" name="submit" value="Submit!">
+
+			</fieldset>
+		</form>
+	</div>
+</main>
+</div>
+</body>
